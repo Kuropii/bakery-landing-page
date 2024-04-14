@@ -1,0 +1,103 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e9d8; /* Light beige */
+    color: #593d2b; /* Dark brown */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    background-color: #ffe0b2; /* Light brown */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styles */
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Add space between logo and bakery name */
+    margin-top: 10px;
+}
+
+/* Bakery Name Styles */
+.bakery-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ad4605; /* Dark brown */
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+.navbar {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e6ccb2; /* Beige */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #593d2b; /* Dark brown */
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #9e7d61; /* Light brown */
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.bakery-image {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6, a {
+font-weight: 200;
+color: #e57373
+}
+
+p, ol {
+    color: #616161;
+    font-weight: bold;
+}
+
+/* List Styles */
+ol {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px; /* Add left margin */
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6ccb2; /* Beige */
+}
